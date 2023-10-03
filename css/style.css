@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+article{
+    background-color: rgb(186, 186, 241);
+}
+nav{
+    background-color: rgb(58, 53, 53);
+}
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+footer h3{
+    font-size: 20px;
+}
+#carouselExampleAutoplaying {
+    background-color: #f0f0f0;
+}
+
+/* Cambiar el color de los botones de control */
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: #000000;
+}
+
+/* Cambiar el tamaño del texto de navegación */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    font-size: 24px;
+}
+#imagen {
+    background-color: #f5f5f5; /* Color de fondo del contenedor */
+    padding: 20px; /* Espacio alrededor del contenido */
+    border: 1px solid #ccc; /* Borde del contenedor */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    text-align: center; /* Texto centrado */
+}
+#baner {
+    display: flex; /* Utiliza un diseño de caja flexible para alinear los elementos horizontalmente */
+    align-items: flex-start; /* Alinea los elementos en la parte superior */
+    background-color: #f0f0f0; /* Color de fondo del contenedor */
+    padding: 20px; /* Espacio alrededor del contenido */
+    border: 1px solid #ccc; /* Borde del contenedor */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+.float-left img {
+    float: left; /* Hace que la imagen flote hacia la izquierda */
+    margin-right: 20px; /* Agrega un espacio entre la imagen y el texto */
+}
+
+.text-container {
+    flex-grow: 1; /* Permite que el contenedor de texto crezca para llenar el espacio restante */
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    color: #555;
+}
